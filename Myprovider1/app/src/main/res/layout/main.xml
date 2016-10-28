@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add data" 
+        android:onClick="btnOperate"
+        
+        />
+
+    <Button
+        android:id="@+id/btnDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="del data"
+         android:onClick="btnOperate"
+         />
+
+    <Button
+        android:id="@+id/btnDelById"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="del data by id" 
+		 android:onClick="btnOperate"        
+        />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update data" 
+         android:onClick="btnOperate"
+        />
+
+    <Button
+        android:id="@+id/btnQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="query data"
+         android:onClick="btnOperate"
+         />
+
+    <Button
+        android:id="@+id/btnQueryById"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="query data by id " 
+         android:onClick="btnOperate"
+        />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
